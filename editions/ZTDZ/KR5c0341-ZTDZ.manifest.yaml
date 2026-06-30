@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0341/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0341/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 紅鉛入黑鉛訣
+  date: '2015-08-29 00:56:18.722782'
+  source:
+    repository: kanripo
+    path: KR5c0341
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0341_000-ZTDZ.yaml, hash: 'sha256:d233843fb677c965d77a93f02d944fdfc1d424908b9c38b14c1c3cfdd8baf868'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0341_000-ZTDZ.markers.yaml, hash: 'sha256:e7e9eeee8b2b0797e7c0906fa6be990ad3eaddcbc14e6fcb3a08dfd206fe4acd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0341_SJB_000-190354c
+    span:
+    - body
+    - 0
+    - 1513
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:81e8985b7ff0f625b4542f0527488334b49fef07762b17907f15f10546341082

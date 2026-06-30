@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0341/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0341/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 紅鉛入黑鉛訣
+  date: '2015-08-29 00:56:18.722782'
+  source:
+    repository: kanripo
+    path: KR5c0341
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0341_000-HFL.yaml, hash: 'sha256:ad498ae6c66ba7f265f9cdb6c2130786f008b9349867bdc2a24d99b15fb1ed4c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0341_000-HFL.markers.yaml, hash: 'sha256:5731aa7b60ed17a445e78f02cbe3efa5d644612a6730f1d258b6b28dfd081cdd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0341_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1513
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:67a027d3274a0c208fc6cdf5f3659f8dd3928656963ec3c013f0124eeed520fa
